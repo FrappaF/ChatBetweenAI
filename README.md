@@ -7,6 +7,8 @@ I created roughly this web page based on https://github.com/openai/openai-quicks
 You can choose from different contexts and start a conversation with a starting point and see how the AI continues. 
 You can also download the current conversation.
 
+Feel free to publish interesting conversations.
+
 Make sure you've installed all the node dependencies.
 
 You can run this with `npm run dev`.
