@@ -9,6 +9,35 @@ You can also download the current conversation.
 
 Feel free to publish interesting conversations.
 
-Make sure you've installed all the node dependencies.
+## Setup
+From the official repo:
+1. If you don’t have Node.js installed, install it from [here](https://nodejs.org/en/) (Node.js version >= 14.6.0 required)
 
-You can run this with `npm run dev`.
+2. Clone this repository
+
+3. Navigate into the project directory
+
+      `$ cd openai-quickstart-node`
+
+4. Install the requirements 
+
+    `$ npm install`
+
+5. Make a copy of the example environment variables file
+
+    On Linux systems:
+
+      `$ cp .env.example .env`
+
+    On Windows:
+
+      `$ copy .env.example .env`
+
+
+6. Add your API key to the newly created .env file
+
+7. Run the app
+
+    `$ npm run dev`
+    
+You should now be able to access the app at http://localhost:3000! For the full context behind this example app, check out the tutorial.
